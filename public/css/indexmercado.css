@@ -1,0 +1,115 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #eef2f5;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+h1 {
+    text-align: center;
+    font-size: 28px;
+    color: #4a4a4a;
+    margin-bottom: 20px;
+}
+.table-container {
+    margin: 0 auto;
+    max-width: 1200px;
+    margin-bottom: 40px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+th, td {
+    padding: 12px 15px;
+    text-align: left;
+}
+th {
+    background-color: #009ee3;
+    color: white;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+tr:hover {
+    background-color: #f1f1f1;
+}
+td {
+    border-bottom: 1px solid #ddd;
+}
+
+@keyframes blink {
+    0% { background-color: #b3ffb3; }
+    50% { background-color: #66ff66; }
+    100% { background-color: #b3ffb3; }
+}
+.recent-payment {
+    animation: blink 1s infinite;
+}
+
+.btn {
+    display: block;
+    width: 200px;
+    margin: 20px auto;
+    padding: 15px 0;
+    text-align: center;
+    background-color: #009ee3;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+.btn:hover {
+    background-color: #007bb5;
+}
+
+.payment-container {
+    background-color: white;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 50px;
+}
+.payment-container h1 {
+    color: #009ee3;
+    font-size: 26px;
+    margin-bottom: 30px;
+}
+#wallet_container {
+    margin-top: 20px;
+}
+
+.btn, .download-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 5px;
+    transition: background-color 0.3s ease;
+}
+.btn {
+    background-color: #3498db;
+}
+.btn:hover {
+    background-color: #2980b9;
+}
+.download-btn {
+    background-color: #e67e22;
+}
+.download-btn:hover {
+    background-color: #d35400;
+}

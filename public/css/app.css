@@ -1,0 +1,45 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.container {
+    text-align: center;
+    background-color: white;
+    padding: 50px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    color: #333;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+.btn {
+    display: inline-block;
+    margin: 15px;
+    padding: 15px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+.btn-mercado-pago {
+    background-color: #009ee3;
+}
+.btn-mercado-pago:hover {
+    background-color: #007bb5;
+}
+.btn-openpay {
+    background-color: #53b94c;
+}
+.btn-openpay:hover {
+    background-color: #409f3a;
+}
